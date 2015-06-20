@@ -6,4 +6,4 @@ deployment:
   production:
     branch: master
     commands:
-      - npm build
+      - npm run-script build

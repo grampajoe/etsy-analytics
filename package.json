@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "mocha",
-    "build": "browserify index.js > static/analytics.js"
+    "build": "browserify index.js > static/analytics.js",
+    "deploy": "bin/deploy.sh"
   },
   "repository": {
     "type": "git",
