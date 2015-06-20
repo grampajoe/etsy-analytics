@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: iojs-v1.3.0
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm build
