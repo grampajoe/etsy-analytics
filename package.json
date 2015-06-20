@@ -1,0 +1,30 @@
+{
+  "name": "etsy-analytics",
+  "version": "1.0.0",
+  "description": "Graphs and stuff for Etsy sellers.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grampajoe/etsy-analytics.git"
+  },
+  "keywords": [
+    "etsy",
+    "analytics",
+    "graphs",
+    "data",
+    "visualization"
+  ],
+  "author": "Joe Friedl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grampajoe/etsy-analytics/issues"
+  },
+  "homepage": "https://github.com/grampajoe/etsy-analytics#readme"
+}
