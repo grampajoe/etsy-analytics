@@ -8,7 +8,8 @@
     "mocha": "^2.2.5"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "browserify index.js > static/analytics.js"
   },
   "repository": {
     "type": "git",
