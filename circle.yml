@@ -10,8 +10,5 @@ general:
 deployment:
   production:
     branch: master
-    commands:
-      - npm run-script build
-      - git config user.name 'CircleCI'
-      - git config user.email 'circleci@joefriedl.net'
-      - npm run-script deploy
+    heroku:
+      appname: etsy-analytics-staging

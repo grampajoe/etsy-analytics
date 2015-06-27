@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Graphs and stuff for Etsy sellers.",
   "main": "index.js",
+  "engines": {
+      "iojs": "2.3.x"
+  },
   "dependencies": {},
   "devDependencies": {
     "mocha": "^2.2.5"
   },
   "scripts": {
     "test": "mocha",
-    "build": "bin/build.sh",
-    "deploy": "bin/deploy.sh"
   },
   "repository": {
     "type": "git",
