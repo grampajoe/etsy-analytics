@@ -4,7 +4,7 @@
   "description": "Graphs and stuff for Etsy sellers.",
   "main": "index.js",
   "engines": {
-    "iojs": "2.3.x"
+    "iojs": "2.3.2"
   },
   "dependencies": {
     "body-parser": "^1.13.1",
@@ -20,7 +20,7 @@
     "request": "^2.58.0"
   },
   "scripts": {
-    "start": "iojs server.js",
+    "start": "node server.js",
     "test": "mocha ./test/**/*.js --reporter nyan"
   },
   "repository": {
