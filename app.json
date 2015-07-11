@@ -13,9 +13,6 @@
     },
     "OAUTH_CONSUMER_SECRET": {
       "description": "Secret key for Etsy OAuth."
-    },
-    "OAUTH_CALLBACK_URL": {
-      "description": "Callback URL for Etsy OAuth."
     }
   }
 }
