@@ -1,0 +1,21 @@
+{
+  "name": "Etsy Analytics",
+  "description": "Graphs and stuff for Etsy sellers.",
+  "website": "https://github.com/grampajoe/etsy-analytics",
+  "repository": "https://github.com/grampajoe/etsy-analytics",
+  "env": {
+    "SESSION_SECRET": {
+      "description": "Cookie key!!!",
+      "generator": "secret"
+    },
+    "OAUTH_CONSUMER_KEY": {
+      "description": "Consumer key for Etsy OAuth."
+    },
+    "OAUTH_CONSUMER_SECRET": {
+      "description": "Secret key for Etsy OAuth."
+    },
+    "OAUTH_CALLBACK_URL": {
+      "description": "Callback URL for Etsy OAuth."
+    }
+  }
+}
